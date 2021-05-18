@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        xmlns:cardView="http://schemas.android.com/apk/res-auto"
+        cardView:cardBackgroundColor="@color/white"
+        cardView:cardCornerRadius="8dp"
+        cardView:cardElevation="3dp"
+        cardView:cardUseCompatPadding="true">
+    <ImageView
+            android:id="@+id/cview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           tools:ignore="ContentDescription"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toTopOf="parent"
+           tools:src="@drawable/matrix_frame_1" />
+</androidx.cardview.widget.CardView>
